@@ -7,9 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "vite preview"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.0.0",
     "@vapi-ai/web": "^2.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
